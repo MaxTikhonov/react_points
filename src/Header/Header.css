@@ -1,0 +1,5 @@
+.header-container {
+ display: grid;
+ background-color: hotpink;
+ grid-area: h;
+}
