@@ -1,9 +1,15 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Bellota', cursive;
+}
+
+
 .App {
   text-align: center;
 }
 
 .app-container {
-  width: 1200px;
+  width: 80vw;
   margin: 0 auto;
   display: grid;
   grid-template-areas:

@@ -3,7 +3,9 @@ import './Main.css';
 function Main() {
  return (
   <div className='main-container'>
-   <h1>Main</h1>
+   <div className='main-wrapper'>
+    <p>Главная страница (здесь пусто)</p>
+   </div>
   </div>
  );
 }

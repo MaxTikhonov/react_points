@@ -1,0 +1,15 @@
+.unittext-container {
+ background: linear-gradient(#e66465, #9198e5);
+ grid-area: m;
+}
+
+.wrapper-text {
+ padding: 0px 30px;
+ width: 600px;
+}
+
+.p-text {
+ background-color: darkgrey;
+ border: 5px solid #0b1f13;
+ border-radius: 5px;
+}
