@@ -1,5 +1,11 @@
+:root {
+ --font-header: 20px;
+}
+
 .header-container {
- display: grid;
- background-color: hotpink;
+ background: linear-gradient(0.50turn, rgb(71, 4, 4), #3f87a6, rgb(71, 4, 4));
+ background-color: rgb(71, 4, 4);
  grid-area: h;
+ color: cornsilk;
+ font-size: var(--font-header);
 }
