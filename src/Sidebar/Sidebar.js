@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function Sidebar(props) {
  let data = props.data;
  let arrOfProps = Object.keys(data)
- const listUnits = arrOfProps.map(item => <li key={item}><Link to={`/units/${item}`}>{item}</Link></li>)
+ const listUnits = arrOfProps.map(item => <li key={item} className='sidebar-li'><Link to={`/units/${item}`}>{item}</Link></li>)
  return (
   <div className='sidebar-container'>
    <ul>

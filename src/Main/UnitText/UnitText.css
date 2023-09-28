@@ -4,11 +4,12 @@
 }
 
 .wrapper-text {
- padding: 0px 30px;
+ padding: 10px 0px 0px 30px;
  width: 600px;
 }
 
 .p-text {
+ padding: 10px;
  background-color: darkgrey;
  border: 5px solid #0b1f13;
  border-radius: 5px;

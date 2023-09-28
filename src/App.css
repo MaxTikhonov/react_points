@@ -14,5 +14,6 @@
   display: grid;
   grid-template-areas:
     'h h h'
-    's m m';
+    's m m'
+    'f f f';
 }

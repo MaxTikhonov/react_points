@@ -2,6 +2,7 @@ import './App.css';
 import Header from './Header/Header';
 import Main from './Main/Main';
 import Sidebar from './Sidebar/Sidebar';
+import Footer from './Footer/Footer';
 import UnitText from './Main/UnitText/UnitText';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import lessonsPoints from './lessonsPoints.json';
@@ -13,6 +14,7 @@ function App() {
         <Router>
           <Header />
           <Sidebar data={lessonsPoints} />
+          <Footer />
           <Routes>
             <Route path='/' element={<Main />} />
             <Route path='/units/:unit' element={<UnitText data={lessonsPoints} />} />
